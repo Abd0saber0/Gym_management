@@ -46,6 +46,6 @@ class MainWin(QWidget):
     def exitbtn(self):
         self.close()  # هتشغل دالةcloseEvent  
 
-app=QApplication([])
-win=MainWin()
-app.exec()
+# app=QApplication([])
+# win=MainWin()
+# app.exec()

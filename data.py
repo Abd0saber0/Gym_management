@@ -1,7 +1,7 @@
 import sqlite3
 class Db:
     def __init__(self):
-        DATA_PATH='./data_base/data.db'
+        DATA_PATH='./data.db'
         self.conn= sqlite3.connect(DATA_PATH)
         self.cursor=self.conn.cursor()
         self.cursor.execute('''CREATE TABLE IF NOT EXISTS members
